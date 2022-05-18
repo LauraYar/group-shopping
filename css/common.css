@@ -1,0 +1,97 @@
+.w {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav {
+  height: 40px;
+  line-height: 40px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-center .nav-center-right {
+  width: 447px;
+  height: 40px;
+}
+.nav-center .nav-center-right ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.nav-center .nav-center-right ul li {
+  position: relative;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+}
+.nav-center .nav-center-right ul li dt:hover {
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+.nav-center .nav-center-right ul li dt a:hover {
+  color: #fe8c00;
+}
+.nav-center .nav-center-right ul li .dropdown-none a:hover {
+  color: #fe8c00;
+}
+.nav-center .nav-center-right ul li .dropdown-none {
+  display: none;
+}
+.nav-center .nav-center-right ul li .dropdown-none:nth-child(5) {
+  display: block !important;
+}
+.nav-center .nav-center-right ul li:nth-child(1):hover .dropdown-none {
+  display: block;
+  border: 1px solid grey;
+}
+.nav-center .nav-center-right ul li:nth-child(2):hover .dropdown-none {
+  display: block;
+  border: 1px solid grey;
+}
+.nav-center .nav-center-right ul li:nth-child(3):hover .dropdown-none {
+  display: block;
+  border: 1px solid grey;
+}
+.nav-center .nav-center-right ul li:nth-child(4):hover .dropdown-none {
+  display: block;
+  border: 1px solid grey;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  width: 1500px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 340px;
+  background: #fff;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none dt {
+  text-align: center;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none .hotel {
+  width: 200px;
+  height: 400px;
+  margin: 0 20px;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none .food {
+  width: 100px;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none .movie {
+  width: 100px;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none .phone-app .img {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-center .nav-center-right ul li:nth-child(5):hover .dropdown-none .phone-app img {
+  width: 50px;
+  height: 50px;
+  margin: 0 20px;
+}
